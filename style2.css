@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.container{
+    margin: 0;
+    height: 30px;
+    width: 100px;
+    position: fixed;
+    background-color: aquamarine;
+   
+}  
+.container02{
+    /* margin: 0;
+     height: 300px;
+     width: 100px;
+     position: fixed;*/
+     background-color: aquamarine;
+     width: 200px;
+     height: auto;
+ } 
+div{
+    width: 100px;
+    height: 100px;
+}
+.icone{
+    margin: 0;
+    float: left;
+    width: 100px;
+    height: 36px;
+    background-color: aquamarine;
+}
+.texto{
+    margin: 0;
+    float: right;
+    width: 100px;
+    height: 36px;
+    background-color: aquamarine;
+}  
+button{
+    background: aquamarine;
+    border: 0;
+    cursor: pointer;
+}
+.menu{
+    height: 800px;
+    width: 300px;
+    position: fixed;
+   /* background-color: rgb(207, 219, 45);*/
+    
+}
+.logo{
+    height: auto;
+    width: 200px;
+    position: fixed;
+    /*background-color: rgb(255, 127, 249);*/
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+.container2 .menu{
+    position: absolute;
+    top: 6px;
+    left: 90%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+
+}
+.container2  a{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    white-space: nowrap;
+   
+    
+}
+.container2  a:hover{
+   color: black;
+   background-color: rgb(178, 224, 209); 
+}
+.dashboadContent{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: calc(100% - 700px);
+    transition: all 0.5s ease-in-out;
+}
+.dashboadContent{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 50;
+    color: rgb(74, 141, 115);
+}
+.links_name .element{
+    width: 100px;
+}
